@@ -1,0 +1,124 @@
+/* Define colors of the project */
+:root {
+  /* ### Primary */
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  /* ### Neutral */
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+/* Reset to default project */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px; /* Now, 1rem = 15px */
+}
+
+/* Start styling  */
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--VeryLightGray);
+  padding: 0 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 0 3rem;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 1.55rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 200;
+  color: var(--GrayishBlue);
+  padding: 0 0.15rem;
+  font-stretch: ultra-expanded;
+  letter-spacing: 0.035rem;
+}
+
+.header__highlight--bold {
+  font-weight: 600;
+  color: var(--VeryDarkBlue);
+}
+
+.header__subtitle {
+  font-size: 1.01rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  padding-top: 1rem;
+  color: var(--GrayishBlue);
+  line-height: 1.75rem;
+}
+
+/* Styling card design */
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+}
+.card-grid__container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px hsl(0, 0%, 78%);
+  justify-content: space-between;
+  position: relative;
+  border-top: 0.3rem solid;
+  max-width: 23rem;
+}
+.card-grid__title {
+  color: var(--VeryDarkBlue);
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-bottom: 0.2rem;
+}
+.card-grid__subtitle {
+  color: var(--GrayishBlue);
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  line-height: 1.5rem;
+  padding-bottom: 6.5rem;
+}
+.card-grid__icon {
+  display: inline-flex;
+  width: 4rem;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+/* styling color border*/
+.card-grid__container--left {
+  border-color: var(--Cyan);
+}
+.card-grid__container--up {
+  border-color: var(--Red);
+}
+.card-grid__container--down {
+  border-color: var(--Orange);
+}
+.card-grid__container--right {
+  border-color: var(--Blue);
+}
