@@ -1,4 +1,5 @@
 /* Define colors of the project */
+
 :root {
   /* ### Primary */
   --Red: hsl(0, 78%, 62%);
@@ -12,6 +13,7 @@
 }
 
 /* Reset to default project */
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +24,10 @@ html {
   font-size: 15px; /* Now, 1rem = 15px */
 }
 
+/* ### MOBILE FIRST APPROACH FOR 375px width */
+
 /* Start styling  */
+
 .layout {
   display: flex;
   flex-direction: column;
@@ -70,6 +75,7 @@ html {
 }
 
 /* Styling card design */
+
 .card-grid {
   display: flex;
   flex-direction: column;
@@ -77,6 +83,7 @@ html {
   justify-content: center;
   font-family: Poppins, sans-serif;
 }
+
 .card-grid__container {
   display: flex;
   flex-direction: column;
@@ -93,12 +100,14 @@ html {
   max-width: 23rem;
   max-height: 16rem;
 }
+
 .card-grid__title {
   color: var(--VeryDarkBlue);
   font-weight: 600;
   font-size: 1.3rem;
   padding-bottom: 0.2rem;
 }
+
 .card-grid__subtitle {
   color: var(--GrayishBlue);
   font-size: 0.85rem;
@@ -107,6 +116,7 @@ html {
   line-height: 1.5rem;
   padding-bottom: 6.5rem;
 }
+
 .card-grid__icon {
   display: inline-flex;
   width: 4rem;
@@ -117,15 +127,19 @@ html {
 }
 
 /* styling color border*/
+
 .card-grid__container--left {
   border-color: var(--Cyan);
 }
+
 .card-grid__container--up {
   border-color: var(--Red);
 }
+
 .card-grid__container--down {
   border-color: var(--Orange);
 }
+
 .card-grid__container--right {
   border-color: var(--Blue);
 }
@@ -142,33 +156,40 @@ footer {
   .header {
     margin-top: 6rem;
   }
+
   .card-grid__container {
     width: 22.8rem;
     margin-bottom: 1.9rem;
   }
 }
+
 @media (min-width: 1128px) {
   .card-grid {
-    max-width: 1086px;
+    max-width: 72.4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
   }
+
   .card-grid__container {
     padding-bottom: 4.2rem;
   }
+
   .card-grid__title {
     padding-top: 0.3rem;
     padding-bottom: 0.5rem;
   }
+
   .header__title {
     padding-top: 1.8rem;
     font-size: 2.32rem;
   }
+
   .header {
     margin-top: 1.6rem;
     margin-bottom: 0.5rem;
   }
+
   .header__subtitle {
     padding-top: -0.5rem;
   }
