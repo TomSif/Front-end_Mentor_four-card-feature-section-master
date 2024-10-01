@@ -82,6 +82,7 @@ html {
   align-items: center;
   justify-content: center;
   font-family: Poppins, sans-serif;
+  padding-top: 0.5rem;
 }
 
 .card-grid__container {
@@ -114,7 +115,7 @@ html {
   font-weight: 400;
   letter-spacing: 0.01rem;
   line-height: 1.5rem;
-  padding-bottom: 6.5rem;
+  padding-bottom: 6.8rem;
 }
 
 .card-grid__icon {
