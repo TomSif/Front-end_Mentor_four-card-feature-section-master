@@ -47,14 +47,14 @@ html {
   justify-content: center;
   padding: 2rem 0 3rem;
   text-align: center;
-  max-width: 530px;
+  max-width: 35.3rem;
 }
 
 .header__title {
   font-size: 1.55rem;
   font-family: Poppins, sans-serif;
   font-weight: 200;
-  color: var(--GrayishBlue);
+  color: var(--VeryDarkBlue);
   padding: 0 0.15rem;
   font-stretch: ultra-expanded;
   letter-spacing: 0.033rem;
@@ -120,7 +120,7 @@ html {
 
 .card-grid__icon {
   display: inline-flex;
-  width: 4rem;
+  width: 4.1rem;
   justify-content: flex-end;
   position: absolute;
   bottom: 2rem;
@@ -173,7 +173,7 @@ footer {
   }
 
   .card-grid__container {
-    padding-bottom: 4.2rem;
+    padding-bottom: 4.9rem;
   }
 
   .card-grid__title {
